@@ -1,6 +1,8 @@
 # Add_and_Clear_Data_in_Table
 Clear and add data in jTable
 
+===>  Set col type is object
+
 
 *First you make list object and get data from database.*
 
