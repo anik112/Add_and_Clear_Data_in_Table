@@ -4,11 +4,11 @@ Clear and add data in jTable
 
 *First you make list object and get data from database.*
 
-```diff
-Make Same  +*java.util.List*  object and put data in list using  +*get_all_company_information()*  mathod.
-Here +*CompanyInformation* is class. i make Company information List where i put lot of company_information
+
+Make Same  *java.util.List*  object and put data in list using  *get_all_company_information()*  mathod.
+Here  *CompanyInformation* is class. i make Company information List where i put lot of company_information
 object.
-```        
+      
         List<CompanyInformation> informatiopnList= new CompanyInformation().get_all_company_information();
         
 Make  *javax.swing.table.DefaultTableModel*  object and get table model from my table.
